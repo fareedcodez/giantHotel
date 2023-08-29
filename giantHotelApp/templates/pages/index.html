@@ -1,0 +1,553 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Sona Template">
+    <meta name="keywords" content="Sona, unica, creative, html">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>The Giant Hotel</title>
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css?family=Lora:400,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Cabin:400,500,600,700&display=swap" rel="stylesheet">
+
+    <!-- Css Styles -->
+    <link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}" type="text/css">
+    <link rel="stylesheet" href="{% static 'css/font-awesome.min.css' %}" type="text/css">
+    <link rel="stylesheet" href="{% static 'css/elegant-icons.css' %}" type="text/css">
+    <link rel="stylesheet" href="{% static 'css/flaticon.css' %}" type="text/css">
+    <link rel="stylesheet" href="{% static 'css/owl.carousel.min.css' %}" type="text/css">
+    <link rel="stylesheet" href="{% static 'css/nice-select.css' %}" type="text/css">
+    <link rel="stylesheet" href="{% static 'css/jquery-ui.min.css' %}" type="text/css">
+    <link rel="stylesheet" href="{% static 'css/magnific-popup.css' %}" type="text/css">
+    <link rel="stylesheet" href="{% static 'css/slicknav.min.css' %}" type="text/css">
+    <link rel="stylesheet" href="{% static 'css/style.css' %}" type="text/css">
+</head>
+
+<body>
+    <!-- Page Preloder -->
+    <div id="preloder">
+        <div class="loader"></div>
+    </div>
+
+    <!-- Offcanvas Menu Section Begin -->
+    <div class="offcanvas-menu-overlay"></div>
+    <div class="canvas-open">
+        <i class="icon_menu"></i>
+    </div>
+    <div class="offcanvas-menu-wrapper">
+        <div class="canvas-close">
+            <i class="icon_close"></i>
+        </div>
+        <div class="search-icon  search-switch">
+            <i class="icon_search"></i>
+        </div>
+        <div class="header-configure-area">
+            <div class="language-option">
+                <img src="{% static 'img/flag.jpg' %}" alt="">
+                <span>TZ <i class="fa fa-angle-down"></i></span>
+            </div>
+            <a href="#" class="bk-btn">Karibu Giant Hotel</a>
+        </div>
+        <nav class="mainmenu mobile-menu">
+            <ul>
+                <li class="active"><a href="./index.html">Home</a></li>
+                <li><a href="./rooms.html">Rooms</a></li>
+                <li><a href="./about-us.html">About Us</a></li>
+                <li><a href="./room-details.html">Room Details</a></li>
+                <li><a href="./blog.html">News</a></li>
+                <li><a href="./contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <div id="mobile-menu-wrap"></div>
+        <div class="top-social">
+            <a href="#"><i class="fa fa-facebook"></i></a>
+            <a href="#"><i class="fa fa-twitter"></i></a>
+            <a href="#"><i class="fa fa-tripadvisor"></i></a>
+            <a href="#"><i class="fa fa-instagram"></i></a>
+        </div>
+        <ul class="top-widget">
+            <li><i class="fa fa-phone"></i>255784742591</li>
+            <li><i class="fa fa-envelope"></i> info.gianthotel@gmail.com</li>
+        </ul>
+    </div>
+    <!-- Offcanvas Menu Section End -->
+
+    <!-- Header Section Begin -->
+    <header class="header-section">
+        <div class="top-nav">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <ul class="tn-left">
+                            <li><i class="fa fa-phone"></i>+255784742591</li>
+                            <li><i class="fa fa-envelope"></i> info.gianthotel@gmail.com</li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="tn-right">
+                            <div class="top-social">
+                                <a href="#"><i class="fa fa-facebook"></i></a>
+                                <a href="#"><i class="fa fa-twitter"></i></a>
+                                <a href="#"><i class="fa fa-tripadvisor"></i></a>
+                                <a href="#"><i class="fa fa-instagram"></i></a>
+                            </div>
+                            <a href="#" class="bk-btn">Karibu Giant Hotel</a>
+                            <div class="language-option">
+                                <img src="{% static 'img/flag.jpg' %}" alt="">
+                                <span>TZ</span>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="menu-item">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-2">
+                        <div class="logo">
+                            <a href="./index.html">
+                                <img src="{% static 'img/logo.png' %}" alt="">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-10">
+                        <div class="nav-menu">
+                            <nav class="mainmenu">
+                                <ul>
+                                    <li class="active"><a href="./index.html">Home</a></li>
+                                    <li><a href="./rooms.html">Rooms</a></li>
+                                    <li><a href="./about-us.html">About Us</a></li>
+                                    <li><a href="./room-details.html">Room Details</a></li>
+                                    <li><a href="./blog.html">News</a></li>
+                                    <li><a href="./contact.html">Contact</a></li>
+                                </ul>
+                            </nav>
+                            <div class="nav-right search-switch">
+                                <i class="icon_search"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- Header End -->
+
+    <!-- Hero Section Begin -->
+    <section class="hero-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="hero-text">
+                        <h1>The Giant A Luxury Hotel</h1>
+                        <p>Karibu Hoteli ya Kifahari "The Giant"!
+                        Tupo hapa kukufurahisha na kukupa uzoefu wa kipekee. 
+                        Jisikie kama nyumbani katika mazingira yetu mazuri na huduma bora. 
+                        Karibu katika wakati wa kufurahisha na faraja. </p>
+                        <a href="#" class="primary-btn">Discover Now</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="hero-slider owl-carousel">
+            <div class="hs-item set-bg" data-setbg="{% static 'img/hero/hero-1.jpg' %}"></div>
+            <div class="hs-item set-bg" data-setbg="{% static 'img/hero/hero-2.jpg' %}"></div>
+            <div class="hs-item set-bg" data-setbg="{% static 'img/hero/hero-3.jpg' %}"></div>
+        </div>
+    </section>
+    <!-- Hero Section End -->
+
+    <!-- About Us Section Begin -->
+    <section class="aboutus-section spad">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="about-text">
+                        <div class="section-title">
+                            <span>About Us</span>
+                            <h2>The Giant Hotel</h2><br /></h3>Where Luxury and Comfort Converge</h3>
+                        </div>
+                        <p class="f-para">The Giant Hotel ni hoteli ya kifahari ambayo inajulikana kwa kutoa uzoefu wa kipekee wa malazi na huduma bora. 
+                        Iliyojengwa kwa kuzingatia ubora na kifahari, 
+                        hoteli hii inatoa mandhari nzuri na vifaa vya kisasa vinavyowapa wageni wake hisia za pekee za starehe na faraja.</p>
+                        <p class="s-para">The Giant Hotel ni hoteli ya kifahari inayojulikana kwa ubora wake wa malazi na huduma bora. 
+                        Inatoa vyumba vya kisasa, migahawa ya kimataifa, na vifaa vya burudani kama spa na mabwawa ya kuogelea. 
+                        Huduma kwa wageni ni ya pekee, na hoteli hii inakuletea uzoefu wa kipekee wa starehe na utulivu.</p>
+                        <a href="#" class="primary-btn about-btn">Read More</a>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="about-pic">
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <img src="{% static 'img/about/about-1.jpg' %}" alt="">
+                            </div>
+                            <div class="col-sm-6">
+                                <img src="{% static 'img/about/about-2.jpg' %}" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- About Us Section End -->
+
+    <!-- Services Section End -->
+    <section class="services-section spad">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="section-title">
+                        <span>What We Do</span>
+                        <h2>Discover Our Services</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-sm-6">
+                    <div class="service-item">
+                        <i class="flaticon-036-parking"></i>
+                        <h4>Travel Plan</h4>
+                        <p>Tupange safari yako bora na Huduma ya Mpango wa Safari. 
+                        Tufuate matakwa yako na tukusaidie kupanga ratiba, malazi, na usafiri. 
+                        Safari isiyosumbua na yenye kufurahisha inakusubiri!.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <div class="service-item">
+                        <i class="flaticon-033-dinner"></i>
+                        <h4>Catering Service</h4>
+                        <p>Huduma ya Catering inatoa chakula na vinywaji kwa matukio kama mikutano na sherehe. 
+                        Inajumuisha maandalizi, usambazaji, na huduma ya wahudumu. 
+                        Hii hukuruhusu kufurahia chakula bora na ladha bila wasiwasi wa maandalizi..</p>
+                    </div>
+                </div></li>
+                <div class="col-lg-4 col-sm-6">
+                    <div class="service-item">
+                        <i class="flaticon-026-bed"></i>
+                        <h4>Babysitting</h4>
+                        <p>Huduma ya kutunza watoto (Babysitting) inapatikana kwa wageni wetu. 
+                        Wataalamu waliofunzwa kwa ustadi wanahakikisha usalama na furaha ya watoto wako wakati wewe unafurahia huduma zetu. 
+                        Karibu kuwawezesha wazazi kupumzika na kujivinjari kwa amani.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <div class="service-item">
+                        <i class="flaticon-024-towel"></i>
+                        <h4>Laundry</h4>
+                        <p>Tunafurahi kutoa huduma ya kufua nguo kwa wageni wetu. Huduma hii ya Laundry inapatikana ili kuhakikisha nguo zako zinabaki safi na zenye hali nzuri wakati wa kukaa kwako hapa "The Giant Hotel". Tafadhali wasiliana na 
+                        huduma ya wageni au eneo la mapokezi ili kupanga huduma ya Laundry kulingana na mahitaji yako..</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <div class="service-item">
+                        <i class="flaticon-044-clock-1"></i>
+                        <h4>Hire Driver</h4>
+                        <p>Huduma ya "Hire Driver" inakupa fursa ya kukodi dereva wa kitaalamu kwa safari zako. 
+                        Dereva huyu atakuwa na uzoefu na maarifa ya eneo hilo, akikuhakikishia safari salama na ya faraja. Ni chaguo bora kwa kusafiri, 
+                        hafla maalum, au kupata mapumziko wakati wa safari yako.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <div class="service-item">
+                        <i class="flaticon-012-cocktail"></i>
+                        <h4>Bar & Drink</h4>
+                        <p>The Giant Hotel inakuletea huduma ya baa na vinywaji ili kufurahia ladha 
+                        mbalimbali za vinywaji vyenye ubora. Pamoja na mazingira mazuri, tunakupa uzoefu wa kipekee wa burudani na vinywaji vyenye ubunifu. Chagua kutoka 
+                        kwenye orodha yetu ya vinywaji vya kipekee na ufurahie wakati wako katika The Giant Hotel.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Services Section End -->
+
+    <!-- Home Room Section Begin -->
+    <section class="hp-room-section">
+        <div class="container-fluid">
+            <div class="hp-room-items">
+                <div class="row">
+                    <div class="col-lg-3 col-md-6">
+                        <div class="hp-room-item set-bg" data-setbg="{% static 'img/room/room-b1.jpg' %}">
+                            <div class="hr-text">
+                                <h3>Double Room</h3>
+                                <h2>199$<span>/Pernight</span></h2>
+                                <table>
+                                    <tbody>
+                                        <tr>
+                                            <td class="r-o">Size:</td>
+                                            <td>30 ft</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="r-o">Capacity:</td>
+                                            <td>Max persion 5</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="r-o">Bed:</td>
+                                            <td>King Beds</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="r-o">Services:</td>
+                                            <td>Wifi, Television, Bathroom,...</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                                <a href="#" class="primary-btn">More Details</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="hp-room-item set-bg" data-setbg="{% static 'img/room/room-b2.jpg' %}">
+                            <div class="hr-text">
+                                <h3>Premium King Room</h3>
+                                <h2>159$<span>/Pernight</span></h2>
+                                <table>
+                                    <tbody>
+                                        <tr>
+                                            <td class="r-o">Size:</td>
+                                            <td>30 ft</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="r-o">Capacity:</td>
+                                            <td>Max persion 5</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="r-o">Bed:</td>
+                                            <td>King Beds</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="r-o">Services:</td>
+                                            <td>Wifi, Television, Bathroom,...</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                                <a href="#" class="primary-btn">More Details</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="hp-room-item set-bg" data-setbg="{% static 'img/room/room-b3.jpg' %}">
+                            <div class="hr-text">
+                                <h3>Deluxe Room</h3>
+                                <h2>198$<span>/Pernight</span></h2>
+                                <table>
+                                    <tbody>
+                                        <tr>
+                                            <td class="r-o">Size:</td>
+                                            <td>30 ft</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="r-o">Capacity:</td>
+                                            <td>Max persion 5</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="r-o">Bed:</td>
+                                            <td>King Beds</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="r-o">Services:</td>
+                                            <td>Wifi, Television, Bathroom,...</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                                <a href="#" class="primary-btn">More Details</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="hp-room-item set-bg" data-setbg="{% static 'img/room/room-b4.jpg' %}">
+                            <div class="hr-text">
+                                <h3>Family Room</h3>
+                                <h2>299$<span>/Pernight</span></h2>
+                                <table>
+                                    <tbody>
+                                        <tr>
+                                            <td class="r-o">Size:</td>
+                                            <td>30 ft</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="r-o">Capacity:</td>
+                                            <td>Max persion 5</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="r-o">Bed:</td>
+                                            <td>King Beds</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="r-o">Services:</td>
+                                            <td>Wifi, Television, Bathroom,...</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                                <a href="#" class="primary-btn">More Details</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Home Room Section End -->
+
+    <!-- Testimonial Section Begin -->
+    <section class="testimonial-section spad">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="section-title">
+                        <span>Testimonials</span>
+                        <h2>What Customers Say?</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-8 offset-lg-2">
+                    <div class="testimonial-slider owl-carousel">
+                        <div class="ts-item">
+                            <p>Baada ya kumaliza muda mrefu wa masomo na majukumu ya kazi, 
+                            familia yetu ilihitaji kuvunja rutuba na kupata wakati wa kupumzika. 
+                            Tukachagua "The Giant Hotel" kwa mapumziko yetu. Kama wapenzi wa asili na mazingira mazuri, 
+                            tulipata furaha kubwa katika likizo yetu huko na tuliondoka tukiwa na kumbukumbu za kudumu.</p>
+                            <div class="ti-author">
+                                <div class="rating">
+                                    <i class="icon_star"></i>
+                                    <i class="icon_star"></i>
+                                    <i class="icon_star"></i>
+                                    <i class="icon_star"></i>
+                                    <i class="icon_star-half_alt"></i>
+                                </div>
+                                <h5> - Jackson Marketer</h5>
+                            </div>
+                            <img src="{% static 'img/testimonial-logo.png' %}" alt="">
+                        </div>
+                        <div class="ts-item">
+                            <p>Baada ya harusi yetu, mume wangu na mimi tulitamani kuanza maisha mapya katika
+                             mazingira tofauti. Tulihamia jijini New York na kwa muda mfupi tulihitaji makazi ya muda wakati nyumba yetu mpya ilikuwa inakamilika. Tukapata faraja na
+                            huduma bora kwenye "The Giant Hotel" na tukaanza kujenga maisha yetu mapya kwa furaha.</p>
+                            <div class="ti-author">
+                                <div class="rating">
+                                    <i class="icon_star"></i>
+                                    <i class="icon_star"></i>
+                                    <i class="icon_star"></i>
+                                    <i class="icon_star"></i>
+                                    <i class="icon_star-half_alt"></i>
+                                </div>
+                                <h5> - Fareed Developer</h5>
+                            </div>
+                            <img src="{% static 'img/testimonial-logo.png' %}" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Testimonial Section End -->
+
+   
+
+    <!-- Footer Section Begin -->
+    <footer class="footer-section">
+        <div class="container">
+            <div class="footer-text">
+                <div class="row">
+                    <div class="col-lg-4">
+                        <div class="ft-about">
+                            <div class="logo">
+                                <a href="#">
+                                        <img src="{% static 'img/footer-logo.png' %}" alt="">
+                                </a>
+                            </div>
+                            <p>Tunainspire na kuwafikia mamilioni ya wasafiri kupitia tovuti yetu<br /> KARIBU THE GIANT HOTEL</p>
+                            <div class="fa-social">
+                                <a href="#"><i class="fa fa-facebook"></i></a>
+                                <a href="#"><i class="fa fa-twitter"></i></a>
+                                <a href="#"><i class="fa fa-tripadvisor"></i></a>
+                                <a href="#"><i class="fa fa-instagram"></i></a>
+                                <a href="#"><i class="fa fa-youtube-play"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 offset-lg-1">
+                        <div class="ft-contact">
+                            <h6>Contact Us</h6>
+                            <ul>
+                                <li>255784742591</li>
+                                <li>info.gianthotel@gmail.com</li>
+                                <li>856 Cordia Extension Apt. 356,Katoro-Geita, Tanzania
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 offset-lg-1">
+                        <div class="ft-newslatter">
+                            <h6>New latest</h6>
+                            <p>Get the latest updates and offers.</p>
+                            <form action="#" class="fn-form">
+                                <input type="text" placeholder="Email">
+                                <button type="submit"><i class="fa fa-send"></i></button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="copyright-option">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-7">
+                        <ul>
+                            <li><a href="#">Contact</a></li>
+                            <li><a href="#">Terms of use</a></li>
+                            <li><a href="#">Privacy</a></li>
+                            <li><a href="#">Environmental Policy</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-5">
+                        <div class="co-text"><p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+  Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved<i class="fa fa-heart" aria-hidden="true"></i> 
+  <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Footer Section End -->
+
+    <!-- Search model Begin -->
+    <div class="search-model">
+        <div class="h-100 d-flex align-items-center justify-content-center">
+            <div class="search-close-switch"><i class="icon_close"></i></div>
+            <form class="search-model-form">
+                <input type="text" id="search-input" placeholder="Search here.....">
+            </form>
+        </div>
+    </div>
+    <!-- Search model end -->
+
+    <!-- Js Plugins -->
+   
+    <script src="{% static 'js/jquery-3.3.1.min.js' %}"></script>
+    <script src="{% static 'js/bootstrap.min.js' %}"></script>
+    <script src="{% static 'js/owl.carousel.min.js' %}"></script>
+    <script src="{% static 'js/jquery.magnific-popup.min.js' %}"></script>   
+    <script src="{% static 'js/jquery.nice-select.min.js' %}"></script>
+    <script src="{% static 'js/jquery-ui.min.js' %}"></script>
+    <script src="{% static 'js/jquery.slicknav.js' %}"></script>
+    <script src="{% static 'js/main.js' %}"></script>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</body>
+
+</html>

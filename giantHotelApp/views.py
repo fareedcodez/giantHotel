@@ -1,16 +1,16 @@
 from django.shortcuts import render
 
-def home(request):
-    return render (request, 'pages/index.html')
+def home(request,template_name='pages/index.html'):
+    return render (request, template_name=template_name)
 
-def roomDetails(request):
-    return render (request, 'giantHotelApp/roomDetails.html')
+def roomDetails(request,template_name='giantHotelApp/roomDetails.html'):
+    return render (request, template_name=template_name)
 
-def rooms(request):
-    return render (request, 'giantHotelApp/rooms.html')
+def rooms(request,template_name='giantHotelApp/rooms.html'):
+    return render (request, template_name=template_name)
 
-def contactUs(request):
-    return render (request, 'pages/contactUs.html')
+def contactUs(request,template_name='pages/contactUs.html'):
+    return render (request, template_name=template_name)
 
-def aboutUs(request):
-    return render (request, 'pages/aboutUs.html')
+def aboutUs(request,template_name='giantHotelApp/aboutUs.html'):
+    return render (request, template_name=template_name)

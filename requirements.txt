@@ -1,4 +1,4 @@
-django==3.2.18
-# pillow==10.0.0
+django==4.2.4
+pillow==10.0.0
 whitenoise==6.5.0
 gunicorn==20.1.0
